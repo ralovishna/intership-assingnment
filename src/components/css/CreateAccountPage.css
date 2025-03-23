@@ -1,0 +1,121 @@
+/* Global App Styles */
+.App {
+	text-align: center;
+}
+
+.App-logo {
+	height: 40vmin;
+	pointer-events: none;
+	animation: App-logo-spin infinite 20s linear;
+}
+
+.App-header {
+	background-color: #282c34;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-size: calc(20px + 2vmin);
+	color: white;
+}
+
+.radio-group {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+
+.radio-group label {
+	display: flex;
+	align-items: center;
+	gap: 5px;
+}
+
+.App-link {
+	color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}
+
+/* Create Account Page Styles */
+.create-account-container {
+	max-width: 400px;
+	margin: 50px auto;
+	padding: 20px;
+	border: 1px solid #ccc;
+	border-radius: 8px;
+	background: #fff;
+	box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Typography */
+h2 {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+/* Form Elements */
+form div {
+	margin-bottom: 15px;
+}
+
+/* Labels */
+label {
+	display: block;
+	margin-bottom: 5px;
+	/* color: #6b46c1; */
+	font-weight: bold;
+}
+
+legend {
+	font-size: 16px;
+
+	color: #6b46c1;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+/* Inputs */
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+	width: 100%;
+	padding: 10px;
+	box-sizing: border-box;
+	border: 1px solid #ccc;
+	border-radius: 6px;
+	font-size: 14px;
+}
+
+/* Error Message */
+.error {
+	color: red;
+	font-size: 12px;
+	margin-top: 5px;
+}
+
+/* Buttons */
+button {
+	width: 100%;
+	padding: 12px;
+	background: #6b46c1;
+	color: white;
+	border: none;
+	border-radius: 6px;
+	cursor: pointer;
+	font-size: 16px;
+	transition: background 0.2s ease, transform 0.1s ease;
+}
+
+button:hover {
+	background: #553c9a;
+	transform: translateY(-2px);
+}
